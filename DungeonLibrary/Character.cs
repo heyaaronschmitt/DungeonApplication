@@ -72,7 +72,7 @@
         {
             return $"----- {Name} -----\n" +
                 $"Life: {Life} of {MaxLife}\n" +
-                $"Hit Chance: {HitChance}%\n" +
+                $"Hit Chance: {CalcHitChance()}%\n" +
                 $"Block: {Block}";
         }
 

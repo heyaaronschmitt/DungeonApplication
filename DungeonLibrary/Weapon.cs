@@ -103,7 +103,7 @@ namespace DungeonLibrary
             //Namespace.ClassName
             return $"{Name}\t{MinDamage} to {MaxDamage} Damage\n" +
                    $"Bonus Hit: {BonusHitChance}%\n" +
-                   $"Type: {Type}\t\t{(IsTwoHanded ? "Two-Handed" : "One-Handed")}";
+                   $"Type: {Type}\t{(IsTwoHanded ? "Two-Handed" : "One-Handed")}";
         }//end 
     }
 }

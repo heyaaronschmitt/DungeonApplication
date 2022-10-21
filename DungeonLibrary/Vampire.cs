@@ -20,8 +20,8 @@
 
         public override string ToString()
         {
-            return base.ToString() + ( HourChangeBack.Hour < 6 || HourChangeBack.Hour > 18 ? 
-                                        "\nEmpowered by the night" : "\nWeakend by the daylight" );
+            return base.ToString() + "\n" + ( HourChangeBack.Hour < 6 || HourChangeBack.Hour > 18 ? 
+                                        "Empowered by the night" : "Weakend by the daylight" );
         }
 
     }

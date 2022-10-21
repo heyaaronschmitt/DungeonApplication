@@ -41,7 +41,7 @@ namespace DungeonLibrary
 
         public override string ToString()
         {
-            return base.ToString() + (IsFluffy ? "It's Fluffy" : "It's not so fluffy");
+            return base.ToString() + "\n" + (IsFluffy ? "It's Fluffy" : "It's not so fluffy");
         }
 
         //Character CalcBlock = BLock
